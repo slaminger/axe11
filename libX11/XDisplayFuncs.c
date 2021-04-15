@@ -39,8 +39,8 @@ void AXE11_GetWinDimensions(WindowDef *win, unsigned int *width_out, unsigned in
 #ifndef NO_SDL
         SDL_GetWindowSize(static_dpy->sdl_win, &width, &height);
 #else
-        width = 320;
-        height = 240;
+        width = 640;
+        height = 480;
 #endif
     } else {
         width = win->width;
